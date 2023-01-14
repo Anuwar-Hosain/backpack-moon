@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.size {
+  width: 70vw;
+  margin: 0 auto;
+}
+/*----------------------------
+Header and Nav-bar Section start 
+-------------------------------*/
+/* nav-bar section */
+
+.header-section {
+  background: #fffff4;
+}
+.logo img {
+  width: 250px;
+  cursor: pointer;
+}
+.nav-bars {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+.nav > ul {
+  display: flex;
+  gap: 57px;
+}
+.nav > ul > li {
+  list-style: none;
+}
+.nav > ul > li a {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #3c3c3c;
+  transition: all 0.3s;
+}
+.nav > ul > li a:hover {
+  color: #76c27e;
+}
+/* hero section start */
+
+.hero-title {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 80px;
+  color: #363958;
+}
+.hero-title > samp {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 80px;
+  color: #76c27e;
+}
+.hero-para {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #3e3e3e;
+}
+/*-------------------------------
+Header and Nav-bar Section end 
+--------------------------------*/
