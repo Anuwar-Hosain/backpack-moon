@@ -7,9 +7,9 @@
   box-sizing: border-box;
 }
 .size {
-  width: 70vw;
+  width: 65vw;
   margin: 0 auto;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 /*----------------------------
 Header and Nav-bar Section start 
@@ -123,6 +123,7 @@ Header and Nav-bar Section end
   display: flex;
   gap: 80px;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 .fit-info {
   flex: 1;
@@ -167,6 +168,75 @@ Header and Nav-bar Section end
 .fit-images > img {
   width: 100%;
 }
+/* cart section start  */
+.Casual-backpack {
+  margin-bottom: 100px;
+}
+.Casual-backpack-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.casual-backpack-title {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  color: #363958;
+}
+.backpack-card {
+  background: #ffffff;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  padding: 18px;
+  width: 350px;
+}
+.backpack-card > img {
+  background: #f1f1f1;
+  border-radius: 20px;
+  width: 100%;
+  margin-bottom: 18px;
+}
+.card-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #363958;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+.card-para {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #3e3e3e;
+}
+.backpack-card > samp {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  color: #76c27e;
+  margin-right: 25px;
+}
+.card-btn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 18px 34px;
+  background: #2a1e59;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.card-btn:hover {
+  background: #76c27e;
+}
 /*---------------------------------
             main section start 
 ---------------------------------- */
@@ -194,6 +264,7 @@ Header and Nav-bar Section end
   .hero-section {
     flex-direction: column;
     gap: 50px;
+    align-items: flex-start;
   }
   .hero-image {
     background-size: 80%;
@@ -204,5 +275,25 @@ Header and Nav-bar Section end
   }
   .hero-image > img {
     width: 80%;
+  }
+  /* fit section */
+  .fit-section {
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+  /* card section start */
+  .Casual-backpack-cards {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .casual-backpack-title {
+    text-align: center;
   }
 }
