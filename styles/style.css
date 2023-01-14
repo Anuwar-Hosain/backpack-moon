@@ -48,6 +48,11 @@ Header and Nav-bar Section start
   color: #76c27e;
 }
 /* hero section start */
+.hero-section {
+  display: flex;
+  align-items: center;
+  gap: 30%;
+}
 
 .hero-title {
   font-family: "Bebas Neue";
@@ -69,6 +74,28 @@ Header and Nav-bar Section start
   font-weight: 400;
   font-size: 16px;
   color: #3e3e3e;
+}
+.hero-btn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 18px 34px;
+  background: #2a1e59;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 24px;
+}
+.hero-image {
+  background-image: url(../images/icon/green.png);
+  background-size: 454px;
+  background-repeat: no-repeat;
+  z-index: 50;
+}
+.hero-image > img {
+  width: 454px;
 }
 /*-------------------------------
 Header and Nav-bar Section end 
